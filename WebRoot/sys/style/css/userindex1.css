@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+#clear{
+	clear:both;
+}
+/*第一条分隔线*/
+#hr1{
+	width:100%;
+	height:10px;
+	margin-bottom:-25px;
+	border:none;
+	border-top:5px groove skyblue;
+}
+/*头部*/
+#top{
+	height:100px;
+	width:100%;
+	background:#FFCC99;
+}
+#top a{
+	height:100%;
+}
+#logo{
+	width:250px;
+	height:100px;
+	float:left;
+	text-align:center;
+	margin-top:7.5px;
+}
+/* 导航栏样式 */
+.divID{
+	width:300px;
+	height:100px;
+	float:left;
+	text-align:center;
+	margin-left:80px;
+	margin-buttom:25px;
+	display:block;
+}
+.divID ul{ 
+	list-style-type:none; 
+	margin:0px; 
+	padding:0px;
+	display: block;
+}
+.divID ul li{
+	width:auto;
+	text-align:center;
+	line-height:83px;
+	height:83px;
+ 	float:left;
+ 	list-style-type: none;
+ 	display: block;
+ }
+ .divID ul li a:hover{
+ 	position: relative; 
+	background-color: white;
+	border-top: 3px solid orange;  
+	border-bottom: 3px solid orange;  
+ }
+ /*搜索框*/
+ #search{
+ 	margin-top:15px;
+ 	margin-left:15px;
+ 	height:25px;
+ 	border:1px solid #CCC;
+ 	-moz-box-shadow: inset 0 0 10px #CCC;
+	-webkit-box-shadow: inset 0 0 10px #CCC;
+	box-shadow: inset 0 0 10px #CCC;
+  	-moz-box-shadow:2px 2px 10px orange;
+	-webkit-box-shadow:2px 2px 10px orange;
+	box-shadow:2px 2px 10px orange;
+}
+ #search2{
+ 	height:25px;
+ }
+ #search2:hover{
+ 	height:25px;
+ 	background: #eee;
+ 	-moz-box-shadow:2px 2px 10px orange;
+		-webkit-box-shadow:2px 2px 10px orange;
+ 	box-shadow:2px 2px 10px orange;
+ }
+ /*top的右部*/
+ #rightID{
+	width:260px;
+	height:100px;
+	float:left;
+	text-align:center;
+}
+/*登录、注册、退出、用户名*/
+.innerID{
+	height:50%;
+	font-family: "微软雅黑";
+	margin-left:40%;
+}
+.innerID a{
+	color:black;
+}
+.innerID a:hover{
+	color:red;
+	border-bottom: 2px solid orange;
+}
+/*申请开店*/
+.apply{
+	display:block; 
+	margin-left:42%;
+	font-size:22px;
+	color:black;
+	text-shadow:1px 1px 1px orange;
+}
+.apply a{
+	text-decoration:none;
+	width: 150px;
+	display: block; 
+}
+.apply a:hover{
+	text-decoration:none;
+	border-radius: 10px;
+	background:rgba(2,2,2,0.1);
+}
+/*中部*/
+#center{
+	margin:auto;
+	width:75%;
+	height:600px;
+	background: rgba(255,228,181, 0.5);
+}
+/*左边商家分类导航栏*/
+#left{
+	width:150px;
+	height:600px;
+	float:left;
+	border:4px orange;
+	border-style:none dashed none none;
+	background: rgba(255,228,181, 0.8);
+}
+#left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+#left li a {
+	margin-left:auto;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align:center;
+    font-family:"黑体";
+}
+#left li a:hover {
+    background-color: orange;
+    color: white;
+}
+#left ul li div {
+	padding-top:14px;
+	font-family:"黑体";
+	font-size:22px;
+	color:orange;
+	text-shadow:0.5px 0.5px 0.5px #000; 
+}
+/*中部右边*/
+#right{
+	width:800px;
+	float:left;
+	height:100%;
+}
+/*每一格店铺*/
+#shopID ul li{
+	list-style:none;
+	float:left;
+	width:253px;
+	height:100%;
+	background:url(img/bg2.gif) no-repeat;
+	margin-left:3px;
+	margin-top:8px;
+	text-align:center;
+	padding-top:5px;
+	border:2px solid orange;
+	border-radius:3px;
+}
+/*分页操作*/
+#pageID a{
+	color:#D2691E;
+	text-decoration:none;
+}
+#pageID a:hover{
+	border-bottom: 2px solid orange;
+}
+/*底部*/
+#bottom{
+	width:100%;
+	height:200px;
+	text-align:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/* 鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: #FFE4B5;
+    color: chocolate;
+}
